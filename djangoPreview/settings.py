@@ -25,7 +25,9 @@ SECRET_KEY = '4zdc7=v-lj1pewyvlb#o%qp^#0nczs4tb@3m7iuf_8p-k%n5z*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'yellowmint.pythonanywhere.com',
+]
 
 
 # Application definition
