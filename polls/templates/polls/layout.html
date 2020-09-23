@@ -1,0 +1,11 @@
+{% extends 'layouts/base.html' %}
+
+{% block body %}
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+
+    <div class="card card-body bg-light">
+        {% block content %}
+        {% endblock %}
+    </div>
+{% endblock %}
