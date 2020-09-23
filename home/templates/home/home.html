@@ -1,0 +1,10 @@
+{% extends 'layouts/base.html' %}
+
+{% block body %}
+    <h1>Django test app</h1>
+    <ul>
+        <li><a href="{% url 'polls:index' %}">Polls app</a></li>
+        <li><a href="{% url 'api-root' %}">Browsable snippets api</a></li>
+        <li><a href="{% url 'admin:index' %}">Admin</a></li>
+    </ul>
+{% endblock %}
